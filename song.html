@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海边记忆 | Seaside Memory</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f0f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .photo-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .photo-img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .photo-info {
+            padding: 30px;
+        }
+        .photo-title {
+            font-size: 28px;
+            font-weight: 600;
+            color: #222;
+            margin-bottom: 12px;
+        }
+        .photo-desc {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .photo-meta {
+            font-size: 14px;
+            color: #999;
+            display: flex;
+            gap: 20px;
+        }
+        @media (max-width: 600px) {
+            .photo-title {
+                font-size: 22px;
+            }
+            .photo-info {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo-card">
+            <!-- 替换为你的图片实际地址 -->
+            <img src="C:\Users\Shaco\Desktop\ss.jpg" alt="海边氛围感照片" class="photo-img">
+            <div class="photo-info">
+                <h1 class="photo-title">海风与城市的温柔交界</h1>
+                <p class="photo-desc">
+                    蓝色的海面泛着细碎波纹，远处渔船轻摇，城市楼宇在薄雾里若隐若现。
+                    这一刻，风是自由的，时光也慢了下来。
+                </p>
+                <div class="photo-meta">
+                    <span>📍 海边沙滩</span>
+                    <span>📸 胶片质感写真</span>
+                    <span>💭 温柔治愈系</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
